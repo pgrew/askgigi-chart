@@ -1,7 +1,7 @@
 apiVersion: v2
 appVersion: latest
-description: SearXNG is a free internet metasearch engine which aggregates results from various search services and databases.
-name: searxng
+description: askgigi is a skin of SearXNG, a free internet metasearch engine which aggregates results from various search services and databases.
+name: askgigi
 version: 1.0.0
 kubeVersion: ">=1.16.0-0"
 keywords:
@@ -9,14 +9,15 @@ keywords:
   - searxng
   - search engine
   - privacy
+  - askgigi
 icon: https://github.com/searxng/searxng/blob/master/searx/static/themes/simple/img/favicon.png?raw=true
 sources:
-  - https://github.com/searxng/searxng
+  - https://github.com/pgrew/askgigi
   - https://docs.searxng.org
   - https://hub.docker.com/r/searxng/searxng
 maintainers:
-  - name: unixfox
-    email: searxngatunixfoxdoteu
+  - name: pgrew
+    email: pgrewatprotonmaildotcom
 dependencies:
   - name: common
     repository: https://library-charts.k8s-at-home.com
